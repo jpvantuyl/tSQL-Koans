@@ -1,0 +1,1 @@
+curl --get 'https://api.twitter.com/1.1/statuses/user_timeline.json' --data 'count=200&screen_name=%40ZenProverbs' --header 'Authorization: OAuth oauth_consumer_key="xxx", oauth_nonce="xxx", oauth_signature="xxx", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1409187259", oauth_token="", oauth_version="1.0"' --verbose
