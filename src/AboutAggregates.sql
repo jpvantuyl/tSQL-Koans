@@ -1,21 +1,17 @@
 USE TSQL_Koans
 
-EXEC tSQLt.NewTestClass 'AboutSelects'
+EXEC tSQLt.NewTestClass 'AboutAggregates'
 GO
 
 /*
-FROM
-WHERE
-EXISTS
-IN
-ORDER BY
-DISTINCT
-TOP
-WITH (common table expression?)
+http://www.techonthenet.com/sql/group_by.php
+GROUP BY
 HAVING
-OVER
-CASE
-NOT
+SUM
+COUNT
+MAX
+MIN
+AVG
 */
 
 /*

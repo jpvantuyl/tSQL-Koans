@@ -40,7 +40,7 @@ CREATE TABLE [Koans].[ZenMaster] (
 	Says	VARCHAR(MAX)
 );
 
---Borrowed with love from the ruby koans (https://github.com/jpvantuyl/ruby_koans/)
+--Borrowed with love from the ruby koans (https://github.com/neo/ruby_koans)
 INSERT INTO [Koans].[ZenMaster] (Says) SELECT 'has expanded your awareness.';
 INSERT INTO [Koans].[ZenMaster] (Says) SELECT 'has damaged your karma.';
 
